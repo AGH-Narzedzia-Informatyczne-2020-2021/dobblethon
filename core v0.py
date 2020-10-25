@@ -14,10 +14,10 @@
 import random
 
 # Constants
-BANK_SIZE = 55                          # Amount of all available pictures 
+BANK_SIZE = 55                         # Amount of all available pictures 
 CARD_SIZE = 10                          # Amount of pictures on a single card
 TOTAL_SCORE = 50                        # Amount of points (cards) available to collect (obsolete if GAMEMODE == 2)
-MAX_SCORE = 3                           # Amount of points (collected cards) required for a single player to win (obsolete if GAMEMODE == 1)
+MAX_SCORE = 10                           # Amount of points (collected cards) required for a single player to win (obsolete if GAMEMODE == 1)
 SCORE_LIMITS = [TOTAL_SCORE, MAX_SCORE]
 ITEM_NAMES = [                          # Holds item names; NOTE not yet defined, for now it's managed by code in #Core
 
@@ -109,7 +109,6 @@ for i in range(100):
 #   With makeshift console interface 
 #   NOTE GUI is to be handled by client scripts, this is the server script
 while PlayerScore[GAMEMODE-1] < SCORE_LIMITS[GAMEMODE-1]:
-    print(PlayerScore[GAMEMODE-1], SCORE_LIMITS[GAMEMODE-1])
     PrintCards(0)
     ### DEBUG Print table paired items
     #print(BoardCards[0][:4])
