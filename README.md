@@ -5,4 +5,5 @@ __We have a solution to this problem!__
 Our new project called "Dobblethon" is an online version of very popular game Dobble. It will:
 * have colorful interface
 * be controlled by voice
-* 
+* let you play over the internet
+*
