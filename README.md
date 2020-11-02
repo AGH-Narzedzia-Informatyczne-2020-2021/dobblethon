@@ -6,6 +6,6 @@ Our new project called "Dobblethon" is an online version of very popular game Do
 * have colorful interface
 * be controlled by voice
 * let you play over the internet
-* 
+* improve your reflex :)
 
 We hope you like it! :D
