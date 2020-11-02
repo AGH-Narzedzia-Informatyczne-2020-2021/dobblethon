@@ -8,4 +8,4 @@ Our new project called "Dobblethon" is an online version of very popular game Do
 * let you play over the internet
 * 
 
-I hope you like it! :D
+We hope you like it! :D
