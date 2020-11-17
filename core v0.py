@@ -8,16 +8,17 @@
 #
 #   Constants can't be freely edited, specific relations between the values need to be held in order for the game to run properly
 #   TODO Write down relations; we need these rules if we enable customizing a game
+#   TODO Add code to send back cards,
 #
 
 # Libraries
 import random
 
 # Constants
-BANK_SIZE = 55                         # Amount of all available pictures 
+BANK_SIZE = 55                          # Amount of all available pictures 
 CARD_SIZE = 10                          # Amount of pictures on a single card
 TOTAL_SCORE = 50                        # Amount of points (cards) available to collect (obsolete if GAMEMODE == 2)
-MAX_SCORE = 10                           # Amount of points (collected cards) required for a single player to win (obsolete if GAMEMODE == 1)
+MAX_SCORE = 3                           # Amount of points (collected cards) required for a single player to win (obsolete if GAMEMODE == 1)
 SCORE_LIMITS = [TOTAL_SCORE, MAX_SCORE]
 ITEM_NAMES = [                          # Holds item names; NOTE not yet defined, for now it's managed by code in #Core
 
@@ -113,18 +114,18 @@ while PlayerScore[GAMEMODE-1] < SCORE_LIMITS[GAMEMODE-1]:
     ### DEBUG Print table paired items
     #print(BoardCards[0][:4])
     while len(ClientInput) == 0:
-        #ClientInput[] needs to be appended externally, input() is makeshift
-        #continue
+        #input() is makeshift, append ClientInput with Socket lib instead
+        #TODO import with Socket
         ClientInput.append(input())
     if ClientInput[0][1:] == ITEM_NAMES[BoardCards[int(ClientInput[0][0])][PLAYER_COUNT-1]]:
-        PlayerScore[0] += 1
-        PlayerScore[int(ClientInput[0][0])+1] += 1
-        for i in range(2, PLAYER_COUNT+2):
+        PlayerScore[0] += 1                             #total score used for GAMEMODE = 1
+        PlayerScore[int(ClientInput[0][0])+1] += 1      #player score used for GAMEMODE = 2
+        for i in range(2, PLAYER_COUNT+2):              #top player score used for GAMEMODE = 2
             if PlayerScore[1] < PlayerScore[i]:
                 PlayerScore[1] = PlayerScore[i]
                 break
-        BoardCards[int(ClientInput[0][0])] = BoardCards[0]
-        for i in range(1, PLAYER_COUNT+1):
+        BoardCards[int(ClientInput[0][0])] = BoardCards[0]          #move table card to winner player
+        for i in range(1, PLAYER_COUNT+1):                          #rearrange card items to match format
             if i == int(ClientInput[0][0]):
                 for j in range(i-1, PLAYER_COUNT):
                     BoardCards[i][j], BoardCards[i][j+1] = BoardCards[i][j+1], BoardCards[i][j] 
@@ -133,8 +134,9 @@ while PlayerScore[GAMEMODE-1] < SCORE_LIMITS[GAMEMODE-1]:
                 BoardCards[i][j], BoardCards[i][PLAYER_COUNT-1] = BoardCards[i][PLAYER_COUNT-1], BoardCards[i][j]
         GenTableCard()
         ClientInput = []
+        #TODO send back info about cards to clients
     else:
         ClientInput.pop(0)
 
-#display ending screen
+
 
