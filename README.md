@@ -14,6 +14,7 @@ We hope you like it! :D
 
 <details>
 <summary>Gisty</summary>
- - Jan Jawień - [Fragment skryptu serwera](https://gist.github.com/JanJawien/cdae219cd36c0b74d147826d73e2c6cc)
+ - Jan Jawień - [Fragment skryptu serwera]
 
 </details>
+[Fragment skryptu serwera]: https://gist.github.com/JanJawien/cdae219cd36c0b74d147826d73e2c6cc
