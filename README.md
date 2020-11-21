@@ -11,8 +11,6 @@ Our new project called "Dobblethon" is an online version of very popular game Do
 
 We hope you like it! :D
 
-[rwer](https://janjawien.github.io)
-
 <details>
 <summary>Gisty</summary>
   
