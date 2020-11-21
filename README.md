@@ -13,7 +13,7 @@ We hope you like it! :D
 
 
 <details>
-<summary>Gists</summary>
-lol no gists so far
+<summary>Gisty</summary>
+ - Jan Jawień - [Fragment skryptu serwera](https://gist.github.com/JanJawien/cdae219cd36c0b74d147826d73e2c6cc)
 
 </details>
