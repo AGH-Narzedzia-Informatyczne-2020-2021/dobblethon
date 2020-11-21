@@ -11,10 +11,14 @@ Our new project called "Dobblethon" is an online version of very popular game Do
 
 We hope you like it! :D
 
+[rwer](https://janjawien.github.io)
 
 <details>
 <summary>Gisty</summary>
- - Jan Jawień - [Fragment skryptu serwera]
+  
+ - Jan Jawień - [Fragment kodu serwera](https://gist.github.com/JanJawien/cdae219cd36c0b74d147826d73e2c6cc)
+ - Jan Jawień - [Drugi gist](https://gist.github.com/JanJawien/3308ba51b2bc7db91bf0e3eabf5fa4ba)
+ 
 
 </details>
-[Fragment skryptu serwera]: https://gist.github.com/JanJawien/cdae219cd36c0b74d147826d73e2c6cc
+
