@@ -17,6 +17,7 @@ We hope you like it! :D
  - Jan Jawień - [Fragment kodu serwera](https://gist.github.com/JanJawien/cdae219cd36c0b74d147826d73e2c6cc)
  - Jan Jawień - [Drugi gist](https://gist.github.com/JanJawien/3308ba51b2bc7db91bf0e3eabf5fa4ba)
  
-
+ - Marcin Kalaus - [Gist 1](https://gist.github.com/marcinkalaus/0dbc4b257c435875e93a27e123dfb6a7)
+ - Marcin Kalaus - [Gist 2](https://gist.github.com/marcinkalaus/8a9b4c342e391f35e2057b53706c9f28)
 </details>
 
