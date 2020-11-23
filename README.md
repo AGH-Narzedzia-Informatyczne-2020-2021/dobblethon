@@ -23,7 +23,7 @@ We hope you like it! :D
  - Julia Kahan - [controller](https://gist.github.com/juliakahan/1cb972e8074d46b67db984ae96b7aaf1)
  - Julia Kahan - [receiver](https://gist.github.com/juliakahan/60aceca7eced2937f95ee05ce1e91f03)
  
- - Mikołaj Borowicz - [Gist one] - (https://gist.github.com/Boro2001/7ed03ef15dc9f1914b57ee31b93148f8)
- - Mikołaj Borowicz - [Gist two] - (https://gist.github.com/Boro2001/99a5b859c5578ddf0da2a9427ae67c16)
+ - Mikołaj Borowicz - [Gist one](https://gist.github.com/Boro2001/7ed03ef15dc9f1914b57ee31b93148f8)
+ - Mikołaj Borowicz - [Gist two](https://gist.github.com/Boro2001/99a5b859c5578ddf0da2a9427ae67c16)
 </details>
 
