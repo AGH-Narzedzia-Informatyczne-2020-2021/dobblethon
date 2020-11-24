@@ -15,17 +15,17 @@
 import random
 
 # Constants
-BANK_SIZE = 55                          # Amount of all available pictures 
-CARD_SIZE = 10                          # Amount of pictures on a single card
-TOTAL_SCORE = 50                        # Amount of points (cards) available to collect (obsolete if GAMEMODE == 2)
-MAX_SCORE = 3                           # Amount of points (collected cards) required for a single player to win (obsolete if GAMEMODE == 1)
+BANK_SIZE = 25                          # Amount of all available pictures 
+CARD_SIZE = 8                           # Amount of pictures on a single card
+TOTAL_SCORE = 20                        # Amount of points (cards) available to collect (obsolete if GAMEMODE == 2)
+MAX_SCORE = 10                          # Amount of points (collected cards) required for a single player to win (obsolete if GAMEMODE == 1)
 SCORE_LIMITS = [TOTAL_SCORE, MAX_SCORE]
 ITEM_NAMES = [                          # Holds item names; NOTE not yet defined, for now it's managed by code in #Core
 
 ]
 
 # User input variables (TODO change to user input)
-PLAYER_COUNT = 4                        # Defines amount of players in game
+PLAYER_COUNT = 2                        # Defines amount of players in game
 GAMEMODE = 2                            # Defines game mode; 1 - top player after TOTAL_SCORE is reached wins, 2 - first to score MAX_SCORE wins
 
 # Variables
