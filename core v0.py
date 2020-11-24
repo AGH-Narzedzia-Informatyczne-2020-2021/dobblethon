@@ -102,9 +102,7 @@ GenTableCard()
 
 #   Get item names 
 #   NOTE Item names are to be predefined, this code is obsolete after it's done
-ITEM_NAMES = list(range(100))
-for i in range(100):
-    ITEM_NAMES[i] = str(i)
+ITEM_NAMES = list(range(BANK_SIZE+1))
 
 #   Run match
 #   With makeshift console interface 
