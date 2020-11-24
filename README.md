@@ -27,7 +27,7 @@ We hope you like it! :D
  - Mikołaj Borowicz - [Gist two](https://gist.github.com/Boro2001/99a5b859c5578ddf0da2a9427ae67c16)
  
  - Natalia Ożarek - [recognizer](https://gist.github.com/NatalkaOzarek/a414730e6694dee329120d4f708d8475)
- - Natalia Ożarek - [Tulpes with variables]()
+ - Natalia Ożarek - [Tuples with variables](https://gist.github.com/NatalkaOzarek/fe116b06d5de347e91b82bf71ae8e02e)
  
  - Kamil Bernacik - [Gist 1](https://gist.github.com/kamilb28/9fe8c500b29cb8fc1e1e6ab793ea1e18)
  - Kamil Bernacik - [Gist 2](https://gist.github.com/kamilb28/da2bd8d2693f54cf021f6b8ed71731dc)
