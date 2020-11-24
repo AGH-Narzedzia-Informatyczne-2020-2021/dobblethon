@@ -25,5 +25,8 @@ We hope you like it! :D
  
  - Mikołaj Borowicz - [Gist one](https://gist.github.com/Boro2001/7ed03ef15dc9f1914b57ee31b93148f8)
  - Mikołaj Borowicz - [Gist two](https://gist.github.com/Boro2001/99a5b859c5578ddf0da2a9427ae67c16)
+ 
+ - Natalia Ożarek - [recognizer] (https://gist.github.com/NatalkaOzarek/a414730e6694dee329120d4f708d8475)
+ - Natalia Ożarek - [Tulpes with variables] ()
 </details>
 
