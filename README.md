@@ -28,5 +28,9 @@ We hope you like it! :D
  
  - Natalia Ożarek - [recognizer](https://gist.github.com/NatalkaOzarek/a414730e6694dee329120d4f708d8475)
  - Natalia Ożarek - [Tulpes with variables]()
+ 
+ - Kamil Bernacik - [Gist 1](https://gist.github.com/kamilb28/9fe8c500b29cb8fc1e1e6ab793ea1e18)
+ - Kamil Bernacik - [Gist 2](https://gist.github.com/kamilb28/da2bd8d2693f54cf021f6b8ed71731dc)
+ 
 </details>
 
